@@ -1,0 +1,37 @@
+{
+    "name": "keplerstein/commerce-ingenico",
+    "description": "Ingenico integration for Cract Commerce",
+    "version": "1.0.0",
+    "type": "craft-plugin",
+    "keywords": ["ingenico", "commerce", "craftcms", "omnipay", "yii2"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Keplerstein",
+        "homepage": "https://www.keplerstein.com"
+      }
+    ],
+    "support": {
+      "email": "hello@keplerstien.com",
+      "issues": "https://github.com/keplerstein/commerce-ingenico/issues?state=open",
+      "source": "https://github.com/keplerstein/commerce-ingenico",
+      "docs": "https://github.com/keplerstein/commerce-ingenico/blob/master/README.md"
+    },
+    "require": {
+      "craftcms/cms": "^3.1.5",
+      "craftcms/commerce": "^2.0|^3.0",
+      "craftcms/commerce-omnipay": "^2.0.0",
+      "league/omnipay": "^3",
+      "spatie/array-to-xml": "2.8.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "craft\\commerce\\ingenico\\": "src/"
+      }
+    },
+    "extra": {
+      "handle": "commerce-ingenico",
+      "name": "Ingenico for Craft Commerce",
+      "documentationUrl": "https://github.com/keplerstein/commerce-ingenico/blob/master/README.md"
+    }
+  }
